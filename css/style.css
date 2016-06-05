@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('http://www.victoria.ac.nz/__data/assets/image/0012/243111/varieties/ls_medium.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1600px 900px;
+}
+
+#form_container {
+  width: 200px;
+  margin-top: 30px;
+  padding: 0 40px 40px 40px;
+  background-color: #3E88E9;
+  border-radius: 5%;
+}
+
+input {
+  width: 200px;
+  margin-top: 20px;
+}
+
+[type="radio"] {
+  width: 40px;
+}
+
+#save {
+  width: 80px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 60px;
+  background-color: yellow;
+  border: none;
+  box-shadow: 5px 5px 10px orange;
+  cursor: pointer;
+}
+
+table, th, td {
+  width: 600px;
+  font-family: Tahoma;
+  font-size: 14px;
+  margin-top: 50px;
+  padding: 5px;
+  border: 2px solid orange;
+  border-collapse: collapse;
+}
+
+tr {
+  background-color: yellow;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  text-align: left;
+}
+
+tr:hover {
+  background-color: green;
+}

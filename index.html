@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>L15 OOP & inheritance homework</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="form_container">
+      <form id="form" action="index.html" method="post">
+        <input type="text" name="name" value="" placeholder="name"/><br/>
+        <input type="radio" name="sex" value="male" checked/> Male
+        <input type="radio" name="sex" value="female"/> Female<br/>
+        <input type="text" name="birth_date" value="" placeholder="birth date dd/mm/yyyy"/><br/>
+        <input type="text" name="address" value="" placeholder="address"/><br/>
+        <input type="tel" name="phone" value="" placeholder="phone"/><br/>
+        <input type="text" name="email" value="" placeholder="email"/></br>
+        <button type="button" id="save">Save</button>
+      </form>
+    </div>
+
+    <div id="table_wrapper">
+      <table id="table">
+        <tr>
+          <th>Name</th>
+          <th>Sex</th>
+          <th>Birth date</th>
+          <th>Address</th>
+          <th>Phone</th>
+          <th>Email</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="js/table.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/superUser.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
